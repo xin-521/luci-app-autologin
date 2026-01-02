@@ -1,0 +1,14 @@
+{
+	"luci-app-autologin": {
+		"description": "Grant access to autologin configuration and RPC calls",
+		"read": {
+			"uci": [ "autologin" ],
+			"ubus": {
+				"luci.autologin": [ "getStatus", "doLogin" ]
+			}
+		},
+		"write": {
+			"uci": [ "autologin" ]
+		}
+	}
+}

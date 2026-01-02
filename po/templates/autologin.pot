@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+msgid "Auto Login"
+msgstr ""
+
+msgid "Campus Network Auto Login"
+msgstr ""
+
+msgid "Automatic login for campus network using Srun authentication system"
+msgstr ""
+
+msgid "Configuration"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "ISP"
+msgstr ""
+
+msgid "Campus Network"
+msgstr ""
+
+msgid "China Mobile"
+msgstr ""
+
+msgid "China Unicom"
+msgstr ""
+
+msgid "China Telecom"
+msgstr ""
+
+msgid "Authentication Server"
+msgstr ""
+
+msgid "AC ID"
+msgstr ""
+
+msgid "Use HTTPS"
+msgstr ""
+
+msgid "Auto Start"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Current Status"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Login Now"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Logging in..."
+msgstr ""
+
+msgid "Login successful"
+msgstr ""
+
+msgid "Login failed"
+msgstr ""
+
+msgid "Login failed: "
+msgstr ""
+
+msgid "Unknown error"
+msgstr ""
+
+msgid "Error:"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
+msgid "Stopped"
+msgstr ""

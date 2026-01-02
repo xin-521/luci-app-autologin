@@ -1,0 +1,9 @@
+config config
+	option enabled '0'
+	option username ''
+	option password ''
+	option domain ''
+	option server '172.26.8.11'
+	option ac_id '1'
+	option use_https '0'
+	option auto_start '0'

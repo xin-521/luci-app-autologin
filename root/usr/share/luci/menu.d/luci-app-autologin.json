@@ -1,0 +1,27 @@
+{
+	"admin/services/autologin": {
+		"title": "Auto Login",
+		"order": 60,
+		"action": {
+			"type": "firstchild"
+		}
+	},
+
+	"admin/services/autologin/status": {
+		"title": "Status",
+		"order": 1,
+		"action": {
+			"type": "view",
+			"path": "autologin/status"
+		}
+	},
+
+	"admin/services/autologin/config": {
+		"title": "Configuration",
+		"order": 2,
+		"action": {
+			"type": "view",
+			"path": "autologin/config"
+		}
+	}
+}

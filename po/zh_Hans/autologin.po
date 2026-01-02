@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+msgid "Auto Login"
+msgstr "自动登录"
+
+msgid "Campus Network Auto Login"
+msgstr "校园网自动登录"
+
+msgid "Automatic login for campus network using Srun authentication system"
+msgstr "使用Srun认证系统的校园网自动登录"
+
+msgid "Configuration"
+msgstr "配置"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Username"
+msgstr "用户名"
+
+msgid "Password"
+msgstr "密码"
+
+msgid "ISP"
+msgstr "运营商"
+
+msgid "Campus Network"
+msgstr "校园网"
+
+msgid "China Mobile"
+msgstr "中国移动"
+
+msgid "China Unicom"
+msgstr "中国联通"
+
+msgid "China Telecom"
+msgstr "中国电信"
+
+msgid "Authentication Server"
+msgstr "认证服务器"
+
+msgid "AC ID"
+msgstr "AC ID"
+
+msgid "Use HTTPS"
+msgstr "使用HTTPS"
+
+msgid "Auto Start"
+msgstr "自动启动"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "Current Status"
+msgstr "当前状态"
+
+msgid "Actions"
+msgstr "操作"
+
+msgid "Login Now"
+msgstr "立即登录"
+
+msgid "Loading..."
+msgstr "加载中..."
+
+msgid "Logging in..."
+msgstr "登录中..."
+
+msgid "Login successful"
+msgstr "登录成功"
+
+msgid "Login failed"
+msgstr "登录失败"
+
+msgid "Login failed: "
+msgstr "登录失败："
+
+msgid "Unknown error"
+msgstr "未知错误"
+
+msgid "Error:"
+msgstr "错误："
+
+msgid "Disabled"
+msgstr "已禁用"
+
+msgid "Running"
+msgstr "运行中"
+
+msgid "Stopped"
+msgstr "已停止"

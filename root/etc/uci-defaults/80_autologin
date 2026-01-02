@@ -1,0 +1,16 @@
+#!/bin/sh
+
+uci batch <<EOF
+set autologin.config='config'
+set autologin.config.enabled='0'
+set autologin.config.username=''
+set autologin.config.password=''
+set autologin.config.domain=''
+set autologin.config.server='172.26.8.11'
+set autologin.config.ac_id='1'
+set autologin.config.use_https='0'
+set autologin.config.auto_start='0'
+commit autologin
+EOF
+
+exit 0
