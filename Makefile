@@ -1,12 +1,13 @@
 include $(TOPDIR)/rules.mk
 
-LUCI_TITLE:=Campus Network Auto Login
-LUCI_DEPENDS:=+libcurl +libjson-c +libopenssl
-
+PKG_NAME:=luci-app-autologin
 PKG_VERSION:=1.0.0
 PKG_RELEASE:=1
 PKG_LICENSE:=GPL-2.0
 PKG_MAINTAINER:=zeroxin <x1936999453@outlook.com>
+
+LUCI_TITLE:=Campus Network Auto Login
+LUCI_DEPENDS:=+libcurl +libjson-c +libopenssl
 
 include $(TOPDIR)/feeds/luci/luci.mk
 
