@@ -1,15 +1,24 @@
 {
 	"admin/services/autologin": {
 		"title": "Auto Login",
-		"order": 60,
+		"order": "60",
 		"action": {
-			"type": "firstchild"
+			"type": "alias",
+			"path": "admin/services/autologin/status"
+		},
+		"depends": {
+			"acl": [ "luci-app-autologin" ],
+			"fs": {
+				"/usr/sbin/autologin": "executable",
+				"/etc/init.d/autologin": "executable"
+			},
+			"uci": { "autologin": true }
 		}
 	},
 
 	"admin/services/autologin/status": {
 		"title": "Status",
-		"order": 1,
+		"order": "1",
 		"action": {
 			"type": "view",
 			"path": "autologin/status"
@@ -18,7 +27,7 @@
 
 	"admin/services/autologin/config": {
 		"title": "Configuration",
-		"order": 2,
+		"order": "2",
 		"action": {
 			"type": "view",
 			"path": "autologin/config"

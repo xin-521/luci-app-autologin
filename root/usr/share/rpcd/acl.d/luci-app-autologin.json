@@ -2,10 +2,18 @@
 	"luci-app-autologin": {
 		"description": "Grant access to autologin configuration and RPC calls",
 		"read": {
+			"cgi-io": [ "exec" ],
 			"uci": [ "autologin" ],
 			"ubus": {
 				"luci.autologin": [ "getStatus", "doLogin" ]
-			}
+			},
+			"file": {
+				"/etc/init.d/autologin reload": [ "exec" ],
+				"/etc/init.d/autologin restart": [ "exec" ],
+				"/etc/init.d/autologin stop": [ "exec" ],
+				"/etc/init.d/autologin start": [ "exec" ]
+			},
+			"log": [ "read" ]
 		},
 		"write": {
 			"uci": [ "autologin" ]

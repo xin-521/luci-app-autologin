@@ -2,8 +2,9 @@ include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:=Campus Network Auto Login
 LUCI_DEPENDS:=+libcurl +libjson-c +libopenssl
-LUCI_PKGARCH:=all
 
+PKG_VERSION:=1.0.0
+PKG_RELEASE:=1
 PKG_LICENSE:=GPL-2.0
 PKG_MAINTAINER:=zeroxin <x1936999453@outlook.com>
 
@@ -28,6 +29,8 @@ define Package/luci-app-autologin/install
 	$(INSTALL_DATA) ./root/usr/share/rpcd/ucode/autologin.uc $(1)/usr/share/rpcd/ucode/
 	$(INSTALL_DIR) $(1)/usr/share/luci/menu.d
 	$(INSTALL_DATA) ./root/usr/share/luci/menu.d/luci-app-autologin.json $(1)/usr/share/luci/menu.d/
+	$(INSTALL_DIR) $(1)/www/luci-static/resources/view/autologin
+	$(INSTALL_DATA) ./htdocs/luci-static/resources/view/autologin/*.js $(1)/www/luci-static/resources/view/autologin/
 endef
 
 define Build/Compile
